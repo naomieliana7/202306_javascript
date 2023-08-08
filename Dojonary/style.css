@@ -1,0 +1,75 @@
+body {
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+#tittle {
+    background-color: rgb(171, 173, 171);
+    padding: 0 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tittle input {
+    height: 25px;
+    width: 300px;
+}
+
+#login {
+    height: 25px;
+    width: 60px;
+    background-color: rgb(39, 124, 204);
+    font-weight: bold;
+}
+
+
+#elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ninja {
+    width: 450px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.part-ninja {
+    width: 250px;
+}
+
+.like {
+    background-color: rgb(224, 194, 57);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 2px 2px black;
+}
+
+#dojonary {
+    border: 2px solid black;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#definition {
+    background-color: rgb(131, 212, 131);
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+}
