@@ -1,0 +1,61 @@
+* {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 600px;
+}
+
+#network {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#feed {
+    padding: 10px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile {
+    border: 2px solid black;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile img {
+    height: 50px;
+}
+
+.information {
+    border: 2px solid black;
+    width: 380px;
+    padding: 15px;
+}
+
+#blocks {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elements {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.button {
+    background-color: rgb(226, 215, 54);
+    padding: 5px;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+}
